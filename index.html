@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Messanger</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">   	
+    <link href="css/bootstrap-social.css" rel="stylesheet"> 
+    <link href="css/font-awesome.css" rel="stylesheet">
+ 
+  </head>
+  <body>
+      
+      <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+          <div class="row">
+
+          <a class="logo" href="/">
+           <img class="logo-img" src="img/logo.png" alt="">
+      
+                <h4>Messanger</h4></a>
+        
+         </div>
+        </div>
+      
+        </ul>
+      </nav>
+      
+        <div class="primary-page">
+
+      <div class="container">
+          
+          <div class="row">
+            <div class="col-lg-12 meeting bordered">
+                <h1 class="centered">Здравствуйте!</h1>
+              <p class="description">
+                  Пожалуйста, зарегистрируйтесь или войдите под своим логином.
+          
+              </p>
+            </div>
+          </div>
+          </div>
+          
+ 
+          <div class="container" style= "margin-top: 2%;"> 
+              <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 bordered">
+                  <h3 class="login">Ваш логин:</h3>
+                  <input type="email" name="" id="input1/(\w+)/\u\1/g" class="form-control nick" value="" required="required" title="">
+                  <h3 class="login">Ваш пароль:</h3>
+                  <input type="password" name="" id="input1/(\w+)/\u\1/g" class="form-control pass" required="required" title="">
+                  
+                  <button type="button" class="btn btn-success go">Войти</button>
+                  
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 bordered">
+
+                    <img align = "center" src="img/facebook1.png" class="front-img" alt="">
+                </div>
+            </div>
+          </div>
+</div>
+
+
+          
+         
+  
+
+  <div class="chat">
+            <div class="container messagebox">
+
+              <div class="row">
+                <ul class="col-lg-12">
+    
+                 
+                </ul>
+              </div>
+        
+          </div>
+      
+          <textarea autofocus class="message-text form-control active"  required="required"></textarea>
+
+        <button type="button" class="btn btn-large btn-block btn-success send">Отправить</button>
+      
+        <script src="js/login.js"></script>
+  
+
+      </div>
+
+  
+
+      <div class="container"> 
+      <div class="row">
+        <div class="footer">
+          <div class="col-lg-2">
+          Messanger by Lev.
+          </div>
+
+          <a target = "_blanc"  href="http://facebook.com/hit.amake"class="btn btn-social-icon btn-facebook"> <span class="fa fa-facebook"></span> </a>
+          <a target = "_blanc"  href="http://vk.com/lion__kh" class="btn btn-social-icon btn-vk"><span class="fa fa-vk"></span> </a>
+          <a target = "_blanc" href="http://instagram.com/lion__kh" class="btn btn-social-icon btn-instagram"><span class="fa fa-instagram"></span></a>
+        
+          </div>
+      </div>
+  </div>
+
+
+
+    <script src = "/socket.io/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
